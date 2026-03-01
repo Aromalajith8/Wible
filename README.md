@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="Wible interface.jpeg" alt="Wible Logo" width="500"/>
+  <img src="Wible interface.jpeg" alt="Wible Logo" width="250"/>
 </p>
 
 # Wible - ESP32 Wireless Protocol Exploration
