@@ -2,7 +2,11 @@
 "An educational ESP32 PoC demonstrating 802.11 bare-metal packet capture, FreeRTOS memory management, and BLE protocol exploration."
 
 
+<p align="center">
+  <img src="Wible interface.jpeg" alt="Wible Logo" width="500"/>
+</p>
 
+# Wible - ESP32 Wireless Protocol Exploration
 ## ⚠️ Important Legal & Ethical Disclaimer
 **This project is strictly for educational and academic purposes only.** The code provided in this repository is designed to demonstrate how 802.11 and Bluetooth Low Energy (BLE) protocols function at a low level, specifically focusing on packet manipulation, promiscuous mode, and RF frame generation. 
 
