@@ -1,7 +1,9 @@
 # Wible
 "An educational ESP32 PoC demonstrating 802.11 bare-metal packet capture, FreeRTOS memory management, and BLE protocol exploration."
+
+
 <p align="center">
-  <img src="wible-logo.png" alt="Wible Logo" width="600"/>
+  <img src="wible-logo.png.jpg" alt="Wible Logo" width="600"/>
 </p>
 
 
