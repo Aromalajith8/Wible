@@ -1,10 +1,10 @@
 # Wible
 "An educational ESP32 PoC demonstrating 802.11 bare-metal packet capture, FreeRTOS memory management, and BLE protocol exploration."
-
-
 <p align="center">
-  <img src="Wible interface.jpeg" alt="Wible Logo" width="190"/>
+  <img src="wible-logo.png" alt="Wible Logo" width="600"/>
 </p>
+
+
 
 # Wible - ESP32 Wireless Protocol Exploration
 ## ⚠️ Important Legal & Ethical Disclaimer
@@ -50,7 +50,11 @@ Once the ESP32 is flashed and powered on, it will broadcast its own standalone W
 3. Open any modern web browser (Chrome, Safari, Firefox).
 4. Navigate to the default ESP32 Access Point IP address: `http://192.168.4.1/`
 5. The Wible dashboard will load, allowing you to interact with the device.
-
 **Troubleshooting:**
 If the browser displays a *"This site can't be reached"* or *"No internet connection"* error:
 * **Turn off your Mobile Data (Cellular Data).** Many smartphones automatically route network traffic through your cellular provider if they detect that the connected Wi-Fi network (the ESP32) does not provide internet access. Disabling mobile data forces the phone to load the local ESP32 page.
+
+-----------------------------------------------------------------------------------------------------------------------
+<p align="center">
+  <img src="Wible interface.jpeg" alt="Wible Logo" width="190"/>
+</p>
