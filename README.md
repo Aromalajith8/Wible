@@ -3,10 +3,6 @@
 
 
 
-
-
-# Wible - ESP32 Wireless Protocol Exploration
-
 ## ⚠️ Important Legal & Ethical Disclaimer
 **This project is strictly for educational and academic purposes only.** The code provided in this repository is designed to demonstrate how 802.11 and Bluetooth Low Energy (BLE) protocols function at a low level, specifically focusing on packet manipulation, promiscuous mode, and RF frame generation. 
 
@@ -41,3 +37,16 @@ This code was specifically developed and tested on the following chipset:
 3. Select your specific ESP32 board model.
 4. Allocate a partition scheme that includes SPIFFS (e.g., "Default 4MB with spiffs") to ensure the PCAP files have space to save.
 5. Compile and flash via USB.
+
+## Usage
+Once the ESP32 is flashed and powered on, it will broadcast its own standalone Wi-Fi network to host the control interface.
+
+1. Open the Wi-Fi settings on your mobile phone or computer.
+2. Connect to the network named **Wible-v12.0** *(Note: This is an open network; no password is required).* ::::::::if password asked write *meknowyouright*
+3. Open any modern web browser (Chrome, Safari, Firefox).
+4. Navigate to the default ESP32 Access Point IP address: `http://192.168.4.1/`
+5. The Wible dashboard will load, allowing you to interact with the device.
+
+**Troubleshooting:**
+If the browser displays a *"This site can't be reached"* or *"No internet connection"* error:
+* **Turn off your Mobile Data (Cellular Data).** Many smartphones automatically route network traffic through your cellular provider if they detect that the connected Wi-Fi network (the ESP32) does not provide internet access. Disabling mobile data forces the phone to load the local ESP32 page.
